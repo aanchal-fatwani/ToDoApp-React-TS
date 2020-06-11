@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoApp /> rendered component should match snapshot style 1 1`] = `
+<body>
+  <div>
+    <div
+      style="font-family: Arial,Helvetica,sans-serif; font-size: 20px;"
+    >
+      <h1>
+        Todo List
+      </h1>
+      <form
+        data-testid="todoform"
+      >
+        <input
+          data-testid="todo_value"
+          name="todo_value"
+          placeholder="Enter your todo here"
+          required=""
+          style="margin: 10px; height: 30px; width: 300px; font-size: 18px; background-color: lightblue;"
+          type="text"
+          value=""
+        />
+        <button
+          data-testid="add_todo"
+          name="add_todo"
+          style="height: 35px; width: 50px; font-size: 18px; background-color: lightblue;"
+          type="submit"
+        >
+          Add
+        </button>
+      </form>
+      <section>
+        <div
+          data-testid="remTodos"
+          style="margin: 20px; font-size: 18px;"
+        />
+        <div
+          data-testid="allTodos"
+        />
+      </section>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`<TodoApp /> rendered component should match snapshot style 2 1`] = `
+<div
+  style={
+    Object {
+      "fontFamily": "Arial,Helvetica,sans-serif",
+      "fontSize": "20px",
+    }
+  }
+>
+  <h1>
+    Todo List
+  </h1>
+  <form
+    data-testid="todoform"
+    onSubmit={[Function]}
+  >
+    <input
+      data-testid="todo_value"
+      name="todo_value"
+      onChange={[Function]}
+      placeholder="Enter your todo here"
+      required={true}
+      style={
+        Object {
+          "backgroundColor": "lightblue",
+          "fontSize": "18px",
+          "height": "30px",
+          "margin": "10px",
+          "width": "300px",
+        }
+      }
+      type="text"
+      value=""
+    />
+    <button
+      data-testid="add_todo"
+      name="add_todo"
+      style={
+        Object {
+          "backgroundColor": "lightblue",
+          "fontSize": "18px",
+          "height": "35px",
+          "width": "50px",
+        }
+      }
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+  <section>
+    <div
+      data-testid="remTodos"
+      style={
+        Object {
+          "fontSize": "18px",
+          "margin": "20px",
+        }
+      }
+    >
+      
+    </div>
+    <div
+      data-testid="allTodos"
+    >
+      
+    </div>
+  </section>
+</div>
+`;
