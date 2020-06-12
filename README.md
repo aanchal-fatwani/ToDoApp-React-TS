@@ -1,4 +1,4 @@
-#To Do App
+# To Do App
 
 An app for working around to do, and performing some other actions on them. The user can add a todo, mark them complete, unmark them while setting them incomplete again or removing them.
 
