@@ -37,6 +37,7 @@ The app also has test suite for unit testing. This has been implemented by using
 
 ## Future Scope Of Improvement
 
-The project can be extended through better handling of todos to relate them to date added such that the user can check when the todo note was created. Also, the functionality to select multiple todos at a time and to apply a particular action on all the selected ones can be added.
+The project can be extended through better handling of todos to relate them to date added such that the user can check when the todo note was created.<br>
+Also, the functionality to select multiple todos at a time and to apply a particular action on all the selected ones can be added.
 
 
